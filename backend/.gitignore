@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Pyre
+.pyre/
+
+# pyenv
+.python-version
+
+# VSCode
+.vscode/
+
+# Environments
+.env
+.env.*
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+coverage/
+htmlcov/
+.tox/
+.nox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# SQLite (or any local DB file)
+*.sqlite3
+*.db
+
+# FastAPI specific (if using static or media folders)
+staticfiles/
+media/
+
+# Docker
+*.pid
+*.tgz
+*.tar.gz
+docker-compose.override.yml
+__pypackages__/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Mac & Linux
+.DS_Store
+Thumbs.db
+
+# Python launcher
+.pyre/
+
+# Editor configs
+.idea/
+*.swp
