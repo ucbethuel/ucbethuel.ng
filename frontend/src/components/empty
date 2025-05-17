@@ -1,0 +1,34 @@
+(
+    <>
+      {/* Place your testing component here. */}
+      <Headers />
+      <QuoteCard /> x
+      <ToolsStack />
+
+       <GithubContributions />
+      <SocialVideoCarousel />
+       <ProjectGrid preview/>
+       <ProductShowcase preview/>
+      <RadialSocialMenu />
+    </>
+  )
+
+<Section>
+  <h2>Projects</h2>
+  <ProjectGrid />
+</Section>
+
+<Section>
+  <h2>Social Content</h2>
+  <SocialCarousel />
+</Section>
+
+<Section>
+  <h2>Products</h2>
+  <ProductShowcase/>
+</Section>
+
+<Section>
+  <h2>Contributions</h2>
+  <GithubContributions />
+</Section>
