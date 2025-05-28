@@ -15,7 +15,7 @@ const projects = [
     tags: ['Jupyter notebook', 'AI', 'Python', "GIZ", "Pandas", "Numpy"],
     live: '#',
     repo: 'https://github.com/ucbethuel/GIZ_python_q_solution',
-    image: '/src/assets/logo-1-trans.png',
+    image: '/public/logo.svg',
   },
   // Add more projects here
 ];

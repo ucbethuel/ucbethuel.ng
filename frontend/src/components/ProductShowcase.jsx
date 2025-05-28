@@ -48,7 +48,7 @@ const ProductShowcase = ({ preview = true }) => {
             <div className="col-md-6 col-lg-4 mb-4" key={index}>
               <div className="card h-100 shadow-sm">
                 <img
-                  src={new URL(product.image, import.meta.url)}
+                  src="/public/logo.svg"
                   className="card-img-top"
                   alt={product.name}
                   style={{ height: "200px", objectFit: "cover" }}
