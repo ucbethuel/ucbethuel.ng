@@ -10,7 +10,7 @@ const Headers = () => {
             href="#"
           >
             <img
-            src={new URL("/src/assets/logo-1-trans.png", import.meta.url).href}
+            src={new URL("/src/assets/logo-1-trans.png", import.meta.url)}
               alt="UC Codes Logo"
               width="48"
               height="38"
