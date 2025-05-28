@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const products = [
   {
     name: "UC Codes Dynamic Portfolio",
-    image: "src/assets/logo-1-trans.png",
+    image: "/src/assets/logo-1-trans.png",
     description:
       "Secure cloud storage platform with real-time sync and collaboration.",
     status: ["Production", "Owned"],
@@ -11,7 +11,7 @@ const products = [
   },
   {
     name: "Cloud Contact Saver",
-    image: "src/assets/logo-2-trans.png",
+    image: "/src/assets/logo-2-trans.png",
     description:
       "Project and task management app for agile teams and individuals.",
     status: ["Development", "Third Party"],
@@ -48,7 +48,7 @@ const ProductShowcase = ({ preview = true }) => {
             <div className="col-md-6 col-lg-4 mb-4" key={index}>
               <div className="card h-100 shadow-sm">
                 <img
-                  src={product.image}
+                  src={new URL(product.image, import.meta.url)}
                   className="card-img-top"
                   alt={product.name}
                   style={{ height: "200px", objectFit: "cover" }}

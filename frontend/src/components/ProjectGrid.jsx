@@ -7,7 +7,7 @@ const projects = [
     tags: ['HTML'],
     live: '#',
     repo: 'https://github.com/ucbethuel/portfolio_project_cct',
-    image: '/src/assets/logo-1-trans.png',
+    image: "/src/assets/logo-1-trans.png",
   },
   {
     title: 'Heart Model Ai - GIZ Python Q Solution',
@@ -23,7 +23,7 @@ const projects = [
 const ProjectCard = ({ project }) => (
   <div className="card shadow-sm h-100">
     <img
-      src={project.image}
+      src={new URL(project.image, import.meta.url)}
       className="card-img-top"
       alt={project.title}
       style={{ height: '180px', objectFit: 'cover' }}
