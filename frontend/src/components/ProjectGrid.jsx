@@ -2,20 +2,20 @@ import { Link } from 'react-router-dom'; // Use this only if you use React Route
 
 const projects = [
   {
-    title: 'Portfolio Website',
-    description: 'A modern personal portfolio built with React and Bootstrap.',
-    tags: ['React', 'Bootstrap', 'Framer Motion'],
-    live: 'https://your-portfolio.com',
-    repo: 'https://github.com/ucbethuel/portfolio',
-    image: '/src/assets/projects/portfolio.png',
+    title: 'First portfolio project',
+    description: 'My first attempt of a personal portfolio using just HTML - 2020',
+    tags: ['HTML'],
+    live: '#',
+    repo: 'https://github.com/ucbethuel/portfolio_project_cct',
+    image: '/src/assets/logo-1-trans.png',
   },
   {
-    title: 'Weather App',
-    description: 'Simple weather app fetching real-time data using OpenWeatherMap API.',
-    tags: ['React', 'API', 'Bootstrap'],
-    live: 'https://your-weather-app.com',
-    repo: 'https://github.com/username/weather-app',
-    image: '/src/assets/projects/weather.png',
+    title: 'Heart Model Ai - GIZ Python Q Solution',
+    description: 'A Solution to Advanced GIZ Course undertaken at CCT - Benin on Advance AI using Scikit-learn and Pandas',
+    tags: ['Jupyter notebook', 'AI', 'Python', "GIZ", "Pandas", "Numpy"],
+    live: '#',
+    repo: 'https://github.com/ucbethuel/GIZ_python_q_solution',
+    image: '/src/assets/logo-1-trans.png',
   },
   // Add more projects here
 ];
@@ -33,7 +33,7 @@ const ProjectCard = ({ project }) => (
       <p className="card-text flex-grow-1">{project.description}</p>
       <div className="mb-3">
         {project.tags.map((tag, i) => (
-          <span key={i} className="badge bg-warning text-dark me-1">
+          <span key={i} className="badge bg-ter-color text-dark me-1">
             #{tag}
           </span>
         ))}
@@ -43,7 +43,7 @@ const ProjectCard = ({ project }) => (
           href={project.live}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-primary btn-sm me-2"
+          className="btn bg-pri-color btn-sm me-2"
         >
           Live Demo
         </a>
@@ -79,7 +79,7 @@ const ProjectGrid = ({ preview = false }) => {
       {preview && (
         <div className="text-center mt-4">
           {/* Use Link if using React Router */}
-          <Link to="/projects" className="btn btn-warning btn-lg">
+          <Link to="/projects" className="btn bg-pri-color btn-lg">
             View All Projects
           </Link>
 

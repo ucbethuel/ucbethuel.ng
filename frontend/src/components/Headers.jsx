@@ -10,7 +10,7 @@ const Headers = () => {
             href="#"
           >
             <img
-              src="./src/assets/react.svg"
+              src="./src/assets/logo-1-trans.png"
               alt="UC Codes Logo"
               width="48"
               height="38"
@@ -23,14 +23,20 @@ const Headers = () => {
             <button
               className="btn fw-semibold bg-sec-color text-quent-color"
               style={{
-                fontWeight: 'bolder',
+                fontWeight: "bolder",
               }}
               type="button"
             >
               Newsletter
             </button>
 
-            <FaUserCircle size={30} color="#333" style={{ cursor: "pointer" }} className="text-quent-color" title="Profile" />
+            <FaUserCircle
+              size={30}
+              color="#333"
+              style={{ cursor: "pointer" }}
+              className="text-quent-color"
+              title="Profile"
+            />
           </div>
         </div>
       </nav>

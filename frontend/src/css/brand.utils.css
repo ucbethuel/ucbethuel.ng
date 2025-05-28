@@ -19,6 +19,27 @@
 .bg-quat-color { background-color: var(--brand-quat-color) !important; }
 .bg-quint-color { background-color: var(--brand-quint-color) !important; }
 
+/* Hover background colors */
+.bg-pri-hover-color:hover { background-color: var(--brand-pri-color) !important; }
+.bg-sec-hover-color:hover { background-color: var(--brand-sec-color) !important; }
+.bg-ter-hover-color:hover { background-color: var(--brand-ter-color) !important; }
+.bg-quat-hover-color:hover { background-color: var(--brand-quat-color) !important; }
+.bg-quint-hover-color:hover { background-color: var(--brand-quint-color) !important; }
+
+.bg-pri-hover-color,
+.bg-sec-hover-color,
+.bg-ter-hover-color,
+.bg-quat-hover-color,
+.bg-quint-hover-color {
+  border: 2px solid transparent;
+  outline: 1px solid var(--brand-pri-color); /* fallback outline */
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+
 /* Text colors */
 .text-pri-color { color: var(--brand-pri-color) !important; }
 .text-sec-color { color: var(--brand-sec-color) !important; }

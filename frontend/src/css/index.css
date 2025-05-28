@@ -10,7 +10,7 @@
 
 .marquee-content {
   display: inline-flex;
-  animation: marquee 20s linear infinite;
+  animation: marquee 40s linear infinite;
   align-items: center;
 }
 
@@ -21,8 +21,8 @@
 }
 
 @keyframes marquee {
-  0% {
-    transform: translateX(100%);
+  0%{
+    transform: translateX(5%);
   }
   100% {
     transform: translateX(-100%);

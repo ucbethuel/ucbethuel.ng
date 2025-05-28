@@ -1,20 +1,20 @@
 const socialVideos = [
   {
     platform: 'YouTube',
-    embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    embedUrl: 'https://www.youtube.com/embed/-skRW1ifo2s?si=UqBUgJh5Jrwd7ud5',
   },
   {
-    platform: 'Instagram',
-    embedUrl: 'https://www.instagram.com/p/XXXXXXXXXXX/embed',
+    platform: 'YouTube',
+    embedUrl: 'https://www.youtube.com/embed/-skRW1ifo2s?si=UqBUgJh5Jrwd7ud5',
   },
-  {
-    platform: 'Facebook',
-    embedUrl: 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/facebook/videos/10153231379946729/&show_text=0&autoplay=1',
-  },
-  {
-    platform: 'TikTok',
-    embedUrl: 'https://www.tiktok.com/embed/7234567890123456789',
-  },
+  // {
+  //   platform: 'Instagram',
+  //   embedUrl: 'https://www.instagram.com/p/XXXXXXXXXXX/embed',
+  // },
+  // {
+  //   platform: 'Facebook',
+  //   embedUrl: 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/facebook/videos/10153231379946729/&show_text=0&autoplay=1',
+  // },
 ];
 
 const SocialVideoCarousel = () => (
