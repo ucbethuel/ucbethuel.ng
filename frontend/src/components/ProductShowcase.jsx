@@ -13,7 +13,7 @@ const products = [
     name: "Cloud Contact Saver",
     image: "/src/assets/logo-2-trans.png",
     description:
-      "Project and task management app for agile teams and individuals.",
+      "A web form which allows a prospective clinet to save his contact in your google contacts storage",
     status: ["Development", "Third Party"],
     url: "#",
   },
