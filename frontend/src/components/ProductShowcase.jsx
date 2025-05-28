@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const products = [
   {
     name: "UC Codes Dynamic Portfolio",
-    image: "/src/assets/logo-1-trans.png",
+    image: "https://www.svgrepo.com/show/508699/landscape-placeholder.svg",
     description:
       "Secure cloud storage platform with real-time sync and collaboration.",
     status: ["Production", "Owned"],
@@ -11,15 +11,15 @@ const products = [
   },
   {
     name: "Cloud Contact Saver",
-    image: "/src/assets/logo-2-trans.png",
+    image: "https://www.svgrepo.com/show/508699/landscape-placeholder.svg",
     description:
-      "A web form which allows a prospective clinet to save his contact in your google contacts storage",
+      "A web form which allows a prospective clinet to save his contact in your google contacts",
     status: ["Development", "Third Party"],
     url: "#",
   },
   {
     name: "LiveChat AI",
-    image: "https://via.placeholder.com/300x200.png?text=LiveChat+AI",
+    image: "https://www.svgrepo.com/show/508699/landscape-placeholder.svg",
     description:
       "Smart customer support chatbot powered by AI and machine learning.",
     status: ["Live", "Owned"],
@@ -27,7 +27,7 @@ const products = [
   },
   {
     name: "InvoicePro",
-    image: "https://via.placeholder.com/300x200.png?text=InvoicePro",
+    image: "https://www.svgrepo.com/show/508699/landscape-placeholder.svg",
     description:
       "Automated invoicing and payment tracking for small businesses.",
     status: ["Live", "Third Party"],
@@ -48,7 +48,7 @@ const ProductShowcase = ({ preview = true }) => {
             <div className="col-md-6 col-lg-4 mb-4" key={index}>
               <div className="card h-100 shadow-sm">
                 <img
-                  src="/public/logo.svg"
+                  src={product.image}
                   className="card-img-top"
                   alt={product.name}
                   style={{ height: "200px", objectFit: "cover" }}

@@ -7,7 +7,7 @@ const projects = [
     tags: ['HTML'],
     live: '#',
     repo: 'https://github.com/ucbethuel/portfolio_project_cct',
-    image: "/src/assets/logo-1-trans.png",
+    image: "https://www.svgrepo.com/show/508699/landscape-placeholder.svg",
   },
   {
     title: 'Heart Model Ai - GIZ Python Q Solution',
@@ -15,7 +15,7 @@ const projects = [
     tags: ['Jupyter notebook', 'AI', 'Python', "GIZ", "Pandas", "Numpy"],
     live: '#',
     repo: 'https://github.com/ucbethuel/GIZ_python_q_solution',
-    image: '/public/logo.svg',
+    image: 'https://www.svgrepo.com/show/508699/landscape-placeholder.svg',
   },
   // Add more projects here
 ];
@@ -23,7 +23,7 @@ const projects = [
 const ProjectCard = ({ project }) => (
   <div className="card shadow-sm h-100">
     <img
-      src={new URL(project.image, import.meta.url)}
+      src={project.image}
       className="card-img-top"
       alt={project.title}
       style={{ height: '180px', objectFit: 'cover' }}
