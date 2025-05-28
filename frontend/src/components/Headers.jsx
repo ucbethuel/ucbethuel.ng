@@ -10,7 +10,7 @@ const Headers = () => {
             href="#"
           >
             <img
-              src="./src/assets/logo-1-trans.png"
+              src="../src/assets/logo-2-trans.png"
               alt="UC Codes Logo"
               width="48"
               height="38"
